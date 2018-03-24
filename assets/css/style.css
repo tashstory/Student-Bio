@@ -87,10 +87,9 @@ body{
     #main-container{
         padding-top: 130px;
         background-color:white;
-        float: left;
-        margin-left: 270px;
-        padding-bottom: 150px;
-        width: 960px;
+        padding-bottom: 100px;
+        width:100%;
+        max-width: 650px;
 
     }
 
@@ -222,12 +221,14 @@ body{
 
     @media screen and (max-width: 980px) {
         /* The body's bg color will be #333 */
-       
+       .sidebar{
+           
+       }
     }
         @media screen and (max-width: 768px) {
             /* The body's bg color will be #333 */
             sidebar{
-                position: fixed;
+                position: absolute;
                 top: 70%;
                 left:20%; 
             }

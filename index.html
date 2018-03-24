@@ -5,48 +5,66 @@
 <head>
     <title>Student Bio</title>
     <!-- Reset CSS -->
-    <link rel="stylesheet" type="text/css" href = "assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-     <!-- Style sheet-->
-    <link rel="stylesheet" type="text/css" href = "assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <!-- Style sheet-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
-<body background= "assets/images/background.jpg">
 
-<div class = "box_set">
-    <h1 class = "header"> Thomas Story  </h1> 
+<body background=assets/images/background.jpg>
 
-    <button class="box_right btn btn-primary" id="contact">
-        <a target=_blank href="contact.html">Contact</a>
-    </button>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo"> Thomas Story</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-    <button class="box_right btn btn-success" id="portfolio">
-        <a target=_blank href="portfolio.html">Portfolio</a>
-    </button>
+<div id="main-container" class="container">
+    <section class="main-container">
+        <h1>About Me</h1>
 
-    <button class="box_right btn btn-danger" id="about">
-        <a target=_blank href=about.html>About</a>
-    </button>   
-</div>
+        <img src="assets/images/filler.jpg" class="auth-image" alt="My Photo">
 
-<div class = "jumbotron">
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+    </section>
 
-    <div class="about">About Me</div>
-    <hr>
-    <p> <img class = "profile" src="assets/images/filler.jpg"> a sd asdasdasdas sdf sdf sd fsd fsd fs dfs dfs df  sda sda sda sd asd as das da sdas da sda sd asd asd d as da sda sd asd asd as das da sd asd sd asd asd asd asd as das da sda sd asd asd asd as daaaaaaaaaaaaa asd asd as da sd asd as das da sd asd as das da sd asd as das da sd asd asd as das da sda sd asd saaaaaaaaaaa sda sdas da sd asd as da sd asd as a das da saaaaaaaaaaaaaa asdas das das da daaaaaaaaaaaaa asd asd as da sd asd as das da sd asd as das da sd asd as das daas da sd asd as das daas da sd asd as das daas da sd asd as das daas da sd asd as das da sd asd asd as das da sda sd asd saaaaaaaaaaa sda sdas da sd asd as da sd asd as asda sd asd as da sda sd asd asd as da sd da sda sd asd as das da sd asd as das da saaaaaaaaaaaaaa asdas das das da</p>
+   
+</div> 
+
+<section class="sidebar">
+        <div id="connect">
+            <h2> Connect with Me</h2>
+            <img src="assets/images/github.png" class="social" alt="Github">
+            <img src="assets/images/linkedin.png" class="social" alt="Linkedin">
+            <img src="assets/images/stackoverflow.png" class ="social" alt="stack overflow">
+        </div>
+    </section>
+
+
+
     
 
-    
-</div>
 
-<footer class="footer">
- copyright
-</footer>
+
+    <footer>
+        <div class="container">
+         copyright 2016 Thomas Story
+        </div>
+    </footer>
 
 </body>
 
